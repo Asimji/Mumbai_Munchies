@@ -1,0 +1,15 @@
+{
+    "id": 2,
+    "inventory": [
+        {
+            "id": 1,
+            "snack": "samosa",
+            "quantity": "40"
+        },
+        {
+            "id": 2,
+            "snack": "jalebi",
+            "quantity": "40"
+        }
+    ]
+}
