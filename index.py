@@ -63,14 +63,7 @@ def update_inventory(inventory):
         print("Id doesnot match")
         break
             
-def delete_inventory(inventory):
-   new_id=int(input("Enter the item_id you want to delete: "))
 
-  for item in inventory:
-    if item["id"] == new:
-        data["inventory"].remove(item)
-        break  
-    
 
 
 
@@ -86,8 +79,8 @@ def main():
          print(inventory)    
       elif(choice=="3"):
          update_inventory(inventory)
-      elif(choice=="4"):
-         delete_inventory(inventory)
+     
+      
       else:
          print("Invalid Choice!!. Please Select the Valid Option")
        
